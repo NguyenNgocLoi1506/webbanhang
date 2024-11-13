@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    border:1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border:1px solid #ff80ff;
+    height: 180px;
+    width: 100%;
+    
+}
+.menu{
+    border:1px solid #1aff8c;
+    height: 50px;
+    width: 100%;
+    background: #00e6ac;
+}
+ul.list.menu {
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+    list-style: none;
+    line-height: 30px;
+}
+ul.list.menu li:hover {
+    background: aliceblue;
+}
+ul.list.menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+}
+ul.list.menu li {
+    float: left;
+    padding: 5px;
+}
+#main{
+    border:1px solid #00ff80;
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border:1px solid #000066;
+    height: auto;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list.sidebar {
+    padding: 0;
+    width: 96%;
+    list-style: none;
+    line-height: 30px;
+}
+ul.list.sidebar li:hover {
+    background: cadetblue;
+    
+}
+ul.list.sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+}
+ul.list.sidebar li {
+    padding: 5px;
+}
+.maincontent{
+    border:1px solid #ff0000;
+    height: auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product.list li {
+    width: 15%;
+    border: 1px dashed black;
+    margin: 6px;
+    float: left;
+    background: antiquewhite;
+    height: 256px;
+}
+ul.product.list li a {
+    text-decoration: none;
+}
+ul.product.list li img {
+    width: 100%;
+}
+
+p.title.product {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.price.product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer{
+    border:1px solid #000;
+    height: 150px;
+    width: 100%;
+    background: #00cc99;
+}
+p.footer.copyright {
+    text-align: center;
+    color: black;
+}
+.clear{
+    clear: both;
+}
